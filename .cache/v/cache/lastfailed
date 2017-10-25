@@ -1,0 +1,11 @@
+{
+  "examples/algo_with_tests/misc/rabin_miller_primality_test.py": true,
+  "examples/algo_with_tests/tests/digraph_test.py": true,
+  "examples/algo_with_tests/tests/gcd_test.py": true,
+  "examples/algo_with_tests/tests/graph_algorithms_test.py": true,
+  "examples/algo_with_tests/tests/heap_test.py": true,
+  "examples/algo_with_tests/tests/lcs_test.py": true,
+  "examples/algo_with_tests/tests/modular_multiplicative_inverse_test.py": true,
+  "examples/algo_with_tests/tests/sieve_test.py": true,
+  "examples/algo_with_tests/tests/singly_linked_list_test.py": true
+}
