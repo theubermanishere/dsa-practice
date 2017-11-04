@@ -31,4 +31,14 @@ class TestSorting(object):
                 assert array[a] > array[b]
             elif (a <= b):
                 assert array[a] <= array[b]
- 
+
+    def test_quick_sort(self):
+        array = sorting.quick_sort(sorting.arr)
+        for i in range(5):
+            a = random.randint(0,len(array)-1)
+            b = random.randint(0,len(array)-1)
+            if (a > b):
+                assert array[a] > array[b]
+            elif (a <= b):
+                assert array[a] <= array[b]
+
