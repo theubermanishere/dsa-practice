@@ -10,6 +10,8 @@ for i in range(20):
     arr.append(random.randint(0,30))
 
 def selection_sort(array):
+    """ Implementation of selection sort.
+    Takes only the array as input."""
     n = len(array)
     for i in range(n):
         smallest = i
@@ -22,6 +24,7 @@ def selection_sort(array):
     return array
 
 def insertion_sort(array):
+    """ Implementaiton of insertion sort."""
     n = len(array)
     for i in range(1,n):
         key = array[i]
@@ -33,6 +36,7 @@ def insertion_sort(array):
     return array
 
 def merge_sort(array,p,r):
+    """ Implementation of merge sort."""
     if (p >= r):
         return array
     q = floor((p+r)/2)
@@ -40,4 +44,3 @@ def merge_sort(array,p,r):
     merge_sort(array,q+1,r)
     merge(array,p,q,r)
 
-def merge(
